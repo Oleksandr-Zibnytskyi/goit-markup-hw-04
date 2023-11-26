@@ -355,6 +355,14 @@ body {
   background-color: #4d5ae5;
 }
 
+.link-item-menu-icon-social:hover,
+.link-item-menu-icon-social:focus {
+  background-color: #404bbf;
+}
+
+.icon-section-three {
+  fill: #f4f4fd;
+}
 /*------------------------------------------ section-four ----------------------------------------------*/
 
 .section-four {
