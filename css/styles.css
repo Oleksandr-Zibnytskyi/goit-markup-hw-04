@@ -432,6 +432,11 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   display: flex;
+  align-items: baseline;
+}
+
+.container-logo-footer {
+  margin-right: 120px;
 }
 
 .footer-social-par {
@@ -443,10 +448,6 @@ body {
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
   margin-bottom: 16px;
-}
-
-.container-media-footer {
-  margin-left: 120px;
 }
 
 .menu-icons-footer {
@@ -481,4 +482,8 @@ body {
   margin-bottom: 16px;
   color: #4d5ae5;
   text-decoration: none;
+}
+.link-item-menu-icon-footer:hover,
+.link-item-menu-icon-footer:focus {
+  background-color: #31d0aa;
 }
