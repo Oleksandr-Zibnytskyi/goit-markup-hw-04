@@ -1,4 +1,10 @@
 /*--------------скидання дифолтних стилів+щсновні правила----------------*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 .list {
   list-style-type: none;
 }
@@ -95,6 +101,19 @@ body {
   gap: 40px;
 }
 
+.header-list-one {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #404bbf;
+  text-decoration: none;
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  position: relative;
+}
+
 .header-list {
   font-weight: 500;
   font-size: 16px;
@@ -105,10 +124,22 @@ body {
   display: block;
   padding-top: 24px;
   padding-bottom: 24px;
-  position: relative;
 }
 
-.header-list:hover,
+.header-menu-list-item::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
+}
+
+.header-menu-list-item::before {
+}
+
+.header-menu-list-item .header-list:hover,
 .header-list:focus {
   color: #404bbf;
 }
